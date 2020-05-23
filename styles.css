@@ -70,7 +70,7 @@ body {
   min-width: 275px;
 }
 
-.newsletter__button {
+.button {
   height: 30px;
   margin: 15px 0;
   padding: 0 20px;
@@ -78,9 +78,13 @@ body {
   cursor: pointer;
 
   border: none;
+  border-radius: 2px;
   background-color: #f1c40f;
-  font-weight: 900;
   font-size: 1rem;
+}
+
+.button--get-started {
+  font-weight: 900;
 }
 
 .features {
@@ -91,4 +95,60 @@ body {
   text-align: center;
   
   height:150px;
+}
+
+.video {
+  width: 100%;
+  margin: 50px auto 0 auto;
+}
+
+.package__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto 10px auto;
+
+  border: 1px solid #000;
+}
+
+.package__title {
+  background-color: #ddd ;
+  font-size: 1rem;
+  padding: 15px 0;
+}
+
+.package__price {
+  margin-top: 15px;
+}
+
+.package__list {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.package__item {
+  padding: 5px 0;
+}
+
+.package__select {
+  margin: 15px 0;
+  padding: 0 20px;
+  background-color: #f1c40f;
+  height: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button--select {
+  align-self: center;
+  height: 40px;
 }
